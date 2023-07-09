@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.nodejs-16_x
     pkgs.python38Full
     pkgs.python38Packages.pandas
     pkgs.python38Packages.seaborn
